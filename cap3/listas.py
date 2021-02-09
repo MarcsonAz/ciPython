@@ -33,3 +33,13 @@ motorcycles.append('ducati')
 motorcycles.insert(0, 'ducati')
 print(motorcycles)
 
+del motorcycles[2]
+
+moto_popped = motorcycles.pop(0)
+print("the first motorcycle I owned " + moto_popped+".")
+
+moto_to_remove = 'suzuki'
+motorcycles.remove(moto_to_remove) # removes only the first match
+print(motorcycles)
+
+
